@@ -8,7 +8,7 @@ git clone https://github.com/Prashant2242/MERN-LMS-AWS.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
-DOMAIN= ""
+DOMAIN= " "
 PORT=8000
 STATIC_DIR="./Backend"
 
