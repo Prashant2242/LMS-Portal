@@ -4,13 +4,13 @@
 
 1. Clone this project
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Prashant2242/MERN-LMS-AWS.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
 DOMAIN= ""
-PORT=3000
-STATIC_DIR="./client"
+PORT=8000
+STATIC_DIR="./Backend"
 
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
@@ -18,7 +18,7 @@ SECRET_KEY=""
 3. Initialise and start the project
 ```
 npm install
-npm run start
+npm start
 ```
 
 ### Set up an AWS EC2 instance
@@ -48,13 +48,13 @@ sudo apt update
 
 1. Clone this project in the remote VM
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone https://github.com/Prashant2242/MERN-LMS-AWS.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
 DOMAIN= ""
-PORT=3000
-STATIC_DIR="./client"
+PORT=8000
+STATIC_DIR="./Backend"
 
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
@@ -64,7 +64,7 @@ SECRET_KEY=""
 3. Initialise and start the project
 ```
 npm install
-npm run start
+npm start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
