@@ -12,6 +12,7 @@ DOMAIN= " "
 PORT=8000
 STATIC_DIR="./Backend"
 
+
 PUBLISHABLE_KEY=""
 SECRET_KEY=""
 ```
