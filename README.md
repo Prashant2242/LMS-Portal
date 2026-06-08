@@ -2,7 +2,7 @@
 
 ### Testing the project locally
 
-1. Clone this project
+1. Clone this project.
 ```
 git clone https://github.com/Prashant2242/MERN-LMS-AWS.git
 ```
